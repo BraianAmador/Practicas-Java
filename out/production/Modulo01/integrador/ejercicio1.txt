@@ -1,0 +1,11 @@
+Crear un programa que genere números enteros
+aleatorios entre 1 y la cantidad de elementos.
+Mostrar cuáles son divisibles entre 3 y 5, con las
+siguientes condiciones:
+1. Solicitar al usuario que ingrese la cantidad de
+elementos a generar.
+2. Si el número es divisible por 3 mostrar Fizz.
+3. Si el número es divisible por 5 mostrar Buzz
+4. Si el número es divisible por 3 y 5 mostrar
+FizzBuzz.
+5. De lo contrario: mostrar el número.

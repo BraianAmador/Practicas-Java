@@ -6,5 +6,9 @@
         <language minSize="157" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="TooBroadScope" enabled="false" level="INFORMATION" enabled_by_default="false">
+      <option name="m_allowConstructorAsInitializer" value="false" />
+      <option name="m_onlyLookAtBlocks" value="false" />
+    </inspection_tool>
   </profile>
 </component>

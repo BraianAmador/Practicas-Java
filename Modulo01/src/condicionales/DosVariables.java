@@ -23,13 +23,13 @@ public class DosVariables {
         int opcion = teclado.nextInt();
 
         if (opcion == 1){
-            System.out.println("La suma de los numeros es: " + String.valueOf(operadores.Operaciones.sumar(num1, num2)));
+            System.out.println("La suma de los numeros es: " + operadores.Operaciones.sumar(num1, num2));
         } else if (opcion == 2) {
-            System.out.println("La resta de los numero es: " + String.valueOf(operadores.Operaciones.restar(num1, num2)));
+            System.out.println("La resta de los numero es: " + operadores.Operaciones.restar(num1, num2));
         } else if (opcion == 3) {
-            System.out.println("El producto de los numeros es: " + String.valueOf(operadores.Operaciones.multiplicar(num1, num2)));
+            System.out.println("El producto de los numeros es: " + operadores.Operaciones.multiplicar(num1, num2));
         } else if (opcion == 4) {
-            System.out.println("la division de los numero es: " + String.valueOf(operadores.Operaciones.dividir(num1, num2)));
+            System.out.println("la division de los numero es: " + operadores.Operaciones.dividir(num1, num2));
         }else {
             System.out.println("No es una opción valida :(");
         }

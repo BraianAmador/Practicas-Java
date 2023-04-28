@@ -1,0 +1,6 @@
+Crear un programa que multiplique dos
+números, con las siguientes condiciones:
+1. Solicitar al usuario que ingrese dos números
+enteros.
+2. No se debe usar el operador de multiplicación
+(*) ni la función Math.multiplyXXXXXX.
