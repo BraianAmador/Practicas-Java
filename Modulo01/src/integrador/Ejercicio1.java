@@ -9,7 +9,7 @@ public class Ejercicio1 {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Ingrese la cantida de numeros que desea generar: ");
+        System.out.println("Ingrese la cantidad de numeros que desea generar: ");
         int numero = teclado.nextInt();
 
         int[] numerosAleatorios = new int[numero];
