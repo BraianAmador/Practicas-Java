@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Documento {
 
     private String tipoDeDocumento;
-    private int numeroDeDocumento;
+    private String numeroDeDocumento;
 
     public void inicializador(){
 
@@ -20,14 +20,14 @@ public class Documento {
         this.setTipoDeDocumento(teclado.nextInt());
 
         System.out.println("Ingrese su numero de documento: ");
-        numeroDeDocumento = teclado.nextInt();
+        numeroDeDocumento = teclado.next();
     }
 
-    public int getNumeroDeDocumento() {
+    public String getNumeroDeDocumento() {
         return numeroDeDocumento;
     }
 
-    public void setNumeroDeDocumento(int numeroDeDocumento) {
+    public void setNumeroDeDocumento(String numeroDeDocumento) {
         this.numeroDeDocumento = numeroDeDocumento;
     }
 
