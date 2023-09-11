@@ -7,8 +7,11 @@ public class Bicicleta {
     int platoActual;
     int pinionActual;
 
-    //Métodos
-
+    public Bicicleta() {
+        this.velocidadActual= 0;
+        this.platoActual = 1;
+        this.pinionActual = 1;
+    }
 
     public Bicicleta(int velocidadActual, int platoActual, int pinionActual) {
         this.velocidadActual = velocidadActual;
@@ -16,6 +19,32 @@ public class Bicicleta {
         this.pinionActual = pinionActual;
     }
 
+    //Getters y Setters
+    public int getVelocidadActual() {
+        return velocidadActual;
+    }
+
+    public void setVelocidadActual(int velocidadActual) {
+        this.velocidadActual = velocidadActual;
+    }
+
+    public int getPlatoActual() {
+        return platoActual;
+    }
+
+    public void setPlatoActual(int platoActual) {
+        this.platoActual = platoActual;
+    }
+
+    public int getPinionActual() {
+        return pinionActual;
+    }
+
+    public void setPinionActual(int pinionActual) {
+        this.pinionActual = pinionActual;
+    }
+
+    //Métodos
     void acelerar(){
         this.velocidadActual *= 2;
 
@@ -26,10 +55,10 @@ public class Bicicleta {
     }
 
     void cambiarPlato(int plato){
-        this.platoActual = plato;
+        this.platoActual = 1;
     }
 
     void cambiarPinion(int pinion){
-        this.pinionActual = pinion;
+        this.pinionActual = 1;
     }
 }
