@@ -13,6 +13,7 @@ public class BicicletaMontania extends Bicicleta{
         this.suspencion = suspencion;
     }
 
+    @Override
     public void acelerar(){
         this.velocidadActual *= 3;
     }

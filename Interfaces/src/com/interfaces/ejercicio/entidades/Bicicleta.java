@@ -1,9 +1,8 @@
 package com.interfaces.ejercicio.entidades;
 
-public class Bicicleta {
+public class Bicicleta extends Vehiculo{
 
     //Atributos
-    int velocidadActual;
     int platoActual;
     int pinionActual;
 
@@ -45,7 +44,8 @@ public class Bicicleta {
     }
 
     //Métodos
-    void acelerar(){
+    @Override
+    public void acelerar(){
         this.velocidadActual *= 2;
 
     }

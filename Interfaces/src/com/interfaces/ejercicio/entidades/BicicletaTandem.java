@@ -5,12 +5,12 @@ public class BicicletaTandem extends Bicicleta{
     int numAsientos;
 
     public BicicletaTandem(int velocidadActual, int platoActual, int pinionActual, int numAsientos) {
-        super();
+        super(velocidadActual, platoActual, pinionActual);
         this.numAsientos = numAsientos;
     }
 
     @Override
-    void acelerar() {
+    public void acelerar() {
         this.velocidadActual *= 4;
     }
 }
