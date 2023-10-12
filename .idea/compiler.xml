@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="primerMaven" target="1.5" />
-      <module name="proyectoMaven" target="1.5" />
+      <module name="proyectoMaven" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
