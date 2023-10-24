@@ -1,0 +1,10 @@
+Hola mundo en archivo
+texto con salto
+Primer linea de texto
+
+Segunda  linea de texto
+
+Tercer linea de texto
+nuevo primer parrafo
+nuevo segundo parrafo
+nuevo tercer parrafo
